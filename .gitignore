@@ -34,3 +34,4 @@ Thumbs.db
 # Environment secrets
 .env
 .env.*
+/bookingservice/
