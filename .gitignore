@@ -1,0 +1,36 @@
+# Java compiled files
+*.class
+
+# Maven build files
+target/
+*/target/
+
+# IDE files
+.classpath
+.project
+.settings/
+.metadata/
+.sts4-cache/
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+.env.*
+application-local.properties
+application-local.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+# Protect application credentials
+**/application.properties
+**/application.yml
+**/application.yaml
+
+# Environment secrets
+.env
+.env.*
